@@ -1,0 +1,161 @@
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+    .route-info__desc {
+        max-width: 350px;
+    }
+    .route-maps-img {
+        top: 350px;
+    }
+    .route-info__plan-list {
+        max-width: 550px;
+    }
+    .about-list__name {
+        font-size: 18px;
+    }
+    .about-credits {
+        font-size: 16px;
+        max-width: 85%;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+    .route-info {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+                margin-bottom: 420px;
+    }
+    .route-info__plan-list {
+        max-width: 100%;
+        top: 0;
+    }
+    .route-info__desc {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .route-maps-img {
+        top: auto;
+        bottom: -225px;
+    }
+    .events-cities-list {
+        height: auto;
+    }
+    .events-cities-list__item {
+        max-width: 100%;
+    }
+    .about-list {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -ms-flex-pack: distribute;
+            -webkit-box-pack: justify;
+                    justify-content: space-between;
+    }
+    .about-list__item {
+        max-width: 45%;
+    }
+    .about-list__item:first-child {
+        max-width: 80%;
+        margin-bottom: 40px;
+    }
+    .about-list__title-wrap {
+        margin: 0 auto;
+    }
+    .about-credits {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    .about-list__item {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    .about-credits {
+        font-size: 14px;
+        padding: 15px 15px 15px 20%;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .section-title:after {
+        height: 90px;
+        -webkit-transform: rotate(-45deg) translate(60px, 33px);
+            -ms-transform: rotate(-45deg) translate(60px, 33px);
+                transform: rotate(-45deg) translate(60px, 33px);
+    }
+    .section-title {
+        font-size: 22px;
+    }
+    .section-title-wrap_low {
+        padding: 15px 65px 15px 15px;
+    }
+    .section-title-wrap_full {
+        padding: 15px;
+    }
+    .section-title-wrap:after {
+        border-top: 50px solid #fff;
+        border-left: 50px solid transparent;
+    }
+    .route-maps-img {
+        position: relative;
+        top: 0;
+        left: -15px;
+        width: calc(100% + 30px);
+        -webkit-transform: translate(0);
+            -ms-transform: translate(0);
+                transform: translate(0);
+        margin-bottom: 40px;
+    }
+    .route-info {
+        margin-bottom: 40px;
+    }
+    .events-cities-list__title span:after {
+        margin-left: 2px;
+        width: 7px;
+        height: 14px;
+    }
+    .events-cities-list__title {
+        font-size: 14px;
+    }
+    .events-cities-list__title span {
+        margin-right: 2px;
+    }
+    .events-cities-list__item h4 {
+        font-size: 16px;
+    }
+    .route-info__plan-item p, .events-cities-list__desc p {
+        font-size: 14px;
+    }
+    .route-info__plan-item h4 {
+        font-size: 20px;
+    }
+    .events-cities-list h4 span:after {
+        display: none;
+    }
+    
+    .events-cities-list h4 {
+        text-decoration: underline;
+                -webkit-text-decoration-color: #fecd1c;
+                        text-decoration-color: #fecd1c;
+    }
+    .about-credits {
+        padding: 15px;
+        text-align: center;
+    }
+    .about-credits:before {
+        display: none;
+    }
+}
